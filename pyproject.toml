@@ -7,7 +7,9 @@ authors = [
     { name = "chunhj", email = "chunhj.kr@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pandas>=3.0.5",
+]
 
 [project.scripts]
 data-analysis-test = "data_analysis_test:main"
